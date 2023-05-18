@@ -9,7 +9,7 @@
   - Sprint Retrospective
 
 - XP
-  - Pair Programming
+  - Simplicity
   - Continuous Integration
 
 <br>
