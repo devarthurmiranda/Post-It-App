@@ -18,16 +18,14 @@
         </nav>
     </header>
     <form onsubmit="insertPost(event)">
-        <div id="register-block">
+        <div id="insert-block">
             <div class="mb-3">
-                <label for="registerUsername" class="form-label">Title</label>
-                <input type="text" class="form-control" id="registerUsername">
-            </div>
-            <div class="mb-3">
+                <label for="titleEntry" class="form-label">Title</label>
+                <input type="text" class="form-control" id="titleEntry">
                 <label for="dateEntry" class="form-label">Date</label>
-                <input type="text" id="dateEntry" class="form-control" aria-labelledby="passwordHelpBlock">
+                <input type="text" id="dateEntry" class="form-control">
                 <label for="descriptionEntry" class="form-label">Description</label>
-                <input type="text" id="descriptionEntry" class="form-control" aria-labelledby="passwordHelpBlock">
+                <input type="text" id="descriptionEntry" class="form-control">
             </div>
             <div>
                 <button type="submit" class="btn btn-primary">Insert</button>
