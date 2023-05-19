@@ -1,25 +1,30 @@
 <mat-card>
-  <mat-form-field>
-    <p>Title</p>
-    <hr />
-    <input matInput type="text" [(ngModel)]="enteredTitle" />
-  </mat-form-field>
-  <mat-form-field>
-    <p>Date</p>
-    <hr />
-    <input matInput type="text" [(ngModel)]="enteredDate" />
-  </mat-form-field>
-  <mat-form-field>
-    <p>Description</p>
-    <hr />
-    <textarea
-      matInput
-      color="primary"
-      [(ngModel)]="enteredContent"
-      rows="6"
-    ></textarea>
-  </mat-form-field>
-  <button mat-raised-button color="primary" (click)="onAddPost()">
-    Insert Post It
-  </button>
+  <form (submit)="onAddPost(postForm)" #postForm="ngForm">
+    <mat-form-field>
+      <p>Title</p>
+      <hr />
+      <input matInput type="text" name="title" ngModel required minlength="3" />
+    </mat-form-field>
+    <mat-form-field>
+      <p>Date</p>
+      <hr />
+      <input matInput type="text" name="date" ngModel />
+    </mat-form-field>
+    <mat-form-field>
+      <p>Description</p>
+      <hr />
+      <textarea
+        matInput
+        color="primary"
+        name="content"
+        ngModel
+        rows="6"
+        required
+        minlength="5"
+      ></textarea>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">
+      Insert Post It
+    </button>
+  </form>
 </mat-card>
