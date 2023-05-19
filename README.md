@@ -16,7 +16,7 @@
 
 <h2 align="center"> Stack Used </h2>
 
-- JavaScript
+- Angular
 - NodeJS
 - PostreSQL
 
