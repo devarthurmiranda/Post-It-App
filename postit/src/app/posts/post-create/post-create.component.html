@@ -1,18 +1,20 @@
 <mat-card>
   <form (submit)="onAddPost(postForm)" #postForm="ngForm">
     <mat-form-field>
-      <p>Title</p>
-      <hr />
-      <input matInput type="text" name="title" ngModel required minlength="3" />
+      <input
+        matInput
+        placeholder="Title"
+        type="text"
+        name="title"
+        ngModel
+        required
+        minlength="3"
+      />
     </mat-form-field>
     <mat-form-field>
-      <p>Date</p>
-      <hr />
-      <input matInput type="text" name="date" ngModel />
+      <input matInput placeholder="Date" type="text" name="date" ngModel />
     </mat-form-field>
     <mat-form-field>
-      <p>Description</p>
-      <hr />
       <textarea
         matInput
         color="primary"
@@ -20,11 +22,12 @@
         ngModel
         rows="6"
         required
+        placeholder="Description"
         minlength="5"
       ></textarea>
     </mat-form-field>
     <button mat-raised-button color="primary" type="submit">
-      Insert Post It
+      Insert Post-It
     </button>
   </form>
 </mat-card>

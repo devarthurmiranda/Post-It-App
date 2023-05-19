@@ -21,5 +21,6 @@ export class PostCreateComponent {
       form.value.date,
       form.value.content
     );
+    form.resetForm();
   }
 }
