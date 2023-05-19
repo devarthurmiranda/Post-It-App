@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Imports
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 // Material
 import { MatInputModule } from '@angular/material/input';
@@ -34,6 +35,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
     FormsModule,
     MatExpansionModule,
     BrowserAnimationsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
