@@ -45,11 +45,23 @@ app.get("/api/posts", (req, res, next) => {
 });
 
 app.post("/api/posts", (req, res, next) => {
-  const post = req.body;
-  console.log(post);
-  res.status(201).json({
-    message: "Post added successfully",
-  });
+  const { title, date, content } = req.body;
+  pool.query(
+    "INSERT INTO post (title, date, description) VALUES ($1, $2, $3) RETURNING *",
+    [title, date, content],
+    (err, result) => {
+      if (err) {
+        console.log(err);
+        res.status(500).json({ message: "Error creating post" + err });
+      } else {
+        const newPost = result.rows[0];
+        res.status(201).json({
+          message: "Post added successfully",
+          post: newPost,
+        });
+      }
+    }
+  );
 });
 
 module.exports = app;
