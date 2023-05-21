@@ -2,6 +2,16 @@ const express = require("express");
 
 const app = express();
 const bodyParser = require("body-parser");
+const { Pool } = require("pg");
+require("dotenv").config();
+
+const pool = new Pool({
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: "post-it",
+  password: process.env.DB_PASSWORD,
+  port: process.env.DB_PORT,
+});
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -20,17 +30,18 @@ app.use((req, res, next) => {
 });
 
 app.get("/api/posts", (req, res, next) => {
-  const posts = [
-    {
-      id: "fadf12421l",
-      title: "First server-side post",
-      date: "28/01/2021",
-      content: "This is coming from the server",
-    },
-  ];
-  res
-    .status(200)
-    .json({ message: "Posts fetched successfully!", posts: posts });
+  pool.query("SELECT * FROM post", (err, result) => {
+    if (err) {
+      console.log(err);
+      res.status(500).json({ message: "Error fetching posts" });
+    } else {
+      const posts = result.rows;
+      res.status(200).json({
+        message: "Posts fetched successfully",
+        posts: posts,
+      });
+    }
+  });
 });
 
 app.post("/api/posts", (req, res, next) => {
