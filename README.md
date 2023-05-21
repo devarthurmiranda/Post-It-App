@@ -21,3 +21,11 @@
 - PostreSQL
 
 <br>
+
+<h2 align="center"> Run the App </h2>
+
+1. Clone the repository and run "npm install"
+2. Configure ".env" according to your database configs
+3. Set up database "post-it" and table "post"
+4. "ng serve" to start frontend
+5. "npm run start:server" to start API
