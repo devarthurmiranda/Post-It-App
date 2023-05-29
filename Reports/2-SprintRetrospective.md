@@ -29,4 +29,4 @@ Time:
     
 Metodológia usada:   
 
-     Scrum Master
+     Scrum
