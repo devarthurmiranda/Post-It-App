@@ -10,7 +10,7 @@ Difficulties:
        The development of the project lasted 4 days being one day for each task created where the biggest estimate 
     of time was concentrated on the fifth for integration with the backend and on the sixth the integration with the database.
        In the last sprint, we faced some difficulties and used different agile techniques to improve our development process. 
-    development process. These problems were connecting the IPA (Application Programming Interface) 
+    development process. These problems were connecting the API (Application Programming Interface) 
     with the Database
 
 Agile Methods: Project Speed and Ease of Understanding
