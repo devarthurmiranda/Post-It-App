@@ -1,25 +1,25 @@
-# Defining Simplicty
+# Defining Simplicity
 
-     Método baseado na ideia de Simplicidade na hora do desenvolvimento.
+     Method based on the idea of Simplicity when developing.
 
 ##
 
 
 
-Dificuldades:
+Difficulties:
 
-      Não houve dificuldades significativas devido à simplicidade e aos métodos ágeis XP 
-     pois a ideia é facilitar o desenvolvimento.
+      There were no significant difficulties due to simplicity and XP agile methods 
+     because the idea is to facilitate the development.
  
 
 
-Agile Methods: Eficiência no desenvolvimento, redução de  tempo e Maior produtividade
+Agile Methods: Development Efficiency, Time Reduction and Increased Productivity
 
     
-      Uma das práticas específicas que implementamos foi a   classificação das pastas e 
-    a nomeação adequada dos métodos . No qual teve como objetivo facilitar o acesso e o 
-    entendimento do código para toda a equipe.
+      One of the specific practices we implemented was the classification of folders and 
+    naming the methods appropriately. The objective was to facilitate access and understanding of the code 
+    understanding of the code for the entire team.
     
-Metodologia usada: 
+Methodology used: 
  
            XP(Extreme Programming)
