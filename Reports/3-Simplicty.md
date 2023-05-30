@@ -17,7 +17,7 @@ Agile Methods: Development Efficiency, Time Reduction and Increased Productivity
 
     
       One of the specific practices we implemented was the classification of folders and 
-    naming the methods appropriately. The objective was to facilitate access and understanding of the code 
+    naming the methods appropriately. The objective was to facilitate access and
     understanding of the code for the entire team.
     
 Methodology used: 
