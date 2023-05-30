@@ -22,6 +22,10 @@
 
 <br>
 
+<h2 align="center"> Preview </h2>
+
+![image](https://github.com/devarthurmiranda/Post-It-App/assets/83318673/a5e24b79-5f54-4eb0-aa86-99ef8e6020b3)
+
 <h2 align="center"> Run the App </h2>
 
 1. Clone the repository and run "npm install"
