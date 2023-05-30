@@ -27,4 +27,6 @@ Team:
 Planning-Poker:
 
     The total effort to be spent defined by the team on this problem was - 50.
+    
+    Difficulties:
     It was hard to understand and implement the PlanningPoker logic, our team was not used to it, so we had to review and re-implemet.
