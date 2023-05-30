@@ -21,10 +21,9 @@ Agile Methods: Project Speed and Ease of Understanding
     of the project as a whole, facilitating collaboration among team members and avoiding rework.
 
    
-Time:
-
-    Estimated: 10 hours
-    Spent: 8 hours
+Effort:
+      
+      Estimated: 50 points
     
  Backlog:
    
