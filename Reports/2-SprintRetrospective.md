@@ -30,7 +30,7 @@ Time:
    
    ![image](https://github.com/devarthurmiranda/Post-It-App/assets/83318673/2a9920e8-0560-4d46-8f7d-38aa6d1118ac)
 
-   ![image](https://github.com/devarthurmiranda/Post-It-App/assets/83318673/bb71ffb9-5d5f-4bd5-b2bf-78e3cf677bbe)
+   ![image](https://github.com/devarthurmiranda/Post-It-App/assets/83318673/0adbaf6e-9a35-4fee-bc22-b66d588dfe81)
 
 Metodológia usada:   
 
