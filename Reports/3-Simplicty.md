@@ -6,7 +6,7 @@
 
 
 
-Difficulties:
+Review:
 
       There were no significant difficulties due to simplicity and XP agile methods 
      because the idea is to facilitate the development.
