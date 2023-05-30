@@ -23,7 +23,7 @@ Agile Methods: Project Speed and Ease of Understanding
    
 Effort:
       
-      Estimated: 50 points
+      Used: 50 points
     
  Backlog:
    
