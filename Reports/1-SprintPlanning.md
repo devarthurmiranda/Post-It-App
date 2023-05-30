@@ -26,4 +26,4 @@ Team:
 
 Planning-Poker:
 
-    The total effort to be spent defined by the team on this problem was - 42.
+    The total effort to be spent defined by the team on this problem was - 50.
