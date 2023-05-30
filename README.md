@@ -29,3 +29,7 @@
 3. Set up database "post-it" and table "post"
 4. "ng serve" to start frontend
 5. "npm run start:server" to start API
+
+<h2 align="center"> Preview </h2>
+
+![image](https://github.com/devarthurmiranda/Post-It-App/assets/83318673/cfd019a4-929c-4276-b3f5-0699e3c19b6a)
