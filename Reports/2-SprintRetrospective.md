@@ -1,24 +1,24 @@
 # Defining Sprint Retrospective:
 
-      Reunião realizada ao final de cada Sprint, onde a equipe refletiu sobre o que 
-    funcionou bem,as dificuldades enfrentadas e define ações para melhorar o processo.
+      Meeting held at the end of each Sprint, where the team reflected on what 
+    the difficulties faced and define actions to improve the process.
 
 ##
 
-Dificuldades:
+Difficulties:
 
-       O desenvolvimento do projeto teve duração de 4 dias sendo um dia para cada task criada onde a estimativa maior 
-    de tempo se concentrou na quinta pra integração com o backend  e na sexta  a integração com o banco de dados.
-       Na última sprint, enfrentamos algumas dificuldades e utilizamos diferentes técnicas ágeis para melhorar nosso 
-    processo de desenvolvimento. Problemas esses que foram ao Conectar IPA(Interface de Programação de Aplicativos) 
-    com o Banco de Dados
+       The development of the project lasted 4 days being one day for each task created where the biggest estimate 
+    of time was concentrated on the fifth for integration with the backend and on the sixth the integration with the database.
+       In the last sprint, we faced some difficulties and used different agile techniques to improve our development process. 
+    development process. These problems were connecting the IPA (Application Programming Interface) 
+    with the Database
 
-Agile Methods: Rapidez do projeto e facilidade de entendimento
+Agile Methods: Project Speed and Ease of Understanding
 
-      A adoção do método Scrum, proporcionou uma maior rapidez no desenvolvimento do projeto. 
-      Ocorre devido à ênfase na entrega contínua de incrementos funcionais, permitindo uma validação 
-    constante e feedback dos usuários. Além disso, esses métodos proporcionaram um melhor entendimento 
-    do projeto como um todo, facilitando a colaboração entre os membros da equipe e evitando retrabalhos.
+      The adoption of the Scrum method, provided greater speed in the development of the project. 
+      This is due to the emphasis on continuous delivery of functional increments, allowing constant validation and 
+    constant validation and feedback from users. In addition, these methods provided a better understanding 
+    of the project as a whole, facilitating collaboration among team members and avoiding rework.
 
    
 Time:
@@ -35,6 +35,6 @@ Time:
    ![image](https://github.com/devarthurmiranda/Post-It-App/assets/83318673/11bccc85-003e-46e3-af1c-088965c67a6a)
 
 
-Metodológia usada:   
+Methodology used:   
 
      Scrum
