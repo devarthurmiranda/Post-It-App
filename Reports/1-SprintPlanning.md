@@ -25,7 +25,8 @@ Team:
     Full-Stack: Arthur and Bruno
 
 Planning-Poker:
-
+    
+    Review:
     The total effort to be spent defined by the team on this problem was - 50.
     
     Difficulties:
