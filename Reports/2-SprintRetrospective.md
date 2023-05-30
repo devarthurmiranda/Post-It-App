@@ -25,6 +25,8 @@ Time:
 
     Estimated: 10 hours
     Spent: 8 hours
+    
+ Backlog:
    
    ![image](https://github.com/devarthurmiranda/Post-It-App/assets/83318673/2a9920e8-0560-4d46-8f7d-38aa6d1118ac)
 
