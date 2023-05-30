@@ -6,7 +6,7 @@
 
 
 
-Difficulties:
+Review:
 
         We did not find any major difficulties in using this approach, since it proved to be 
       easy to use and efficient in detecting bugs, which facilitated the execution of the project 
