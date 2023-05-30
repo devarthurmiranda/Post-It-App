@@ -45,10 +45,10 @@ app.get("/api/posts", (req, res, next) => {
 });
 
 app.post("/api/posts", (req, res, next) => {
-  const { title, date, content } = req.body;
+  const { title, date, description } = req.body;
   pool.query(
     "INSERT INTO post (title, date, description) VALUES ($1, $2, $3) RETURNING *",
-    [title, date, content],
+    [title, date, description],
     (err, result) => {
       if (err) {
         console.log(err);
